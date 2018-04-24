@@ -90,13 +90,13 @@
 			    	<div class="home-grid-title background-primary11 color-bright">Recent Merchants</div>
 			    </ion-col>
 		    </ion-row>
-			<ion-row>
-			    <ion-col col-12 *ngFor="let merchant of merchants" (click)="showItemDetails('Merchant', merchant)">
+			<ion-row >
+			    <ion-col col-6 *ngFor="let merchant of merchants" (click)="showItemDetails('Merchant', merchant)">
 			    	<div class="card-style home-burgundy">
 			    		<div class="text-center">{{merchant.name}}</div>
 			    	<!-- {{base_url}}{{merchant.avatar || 'images/no_image.png'}} -->
 				    	<div class="image">
-							<img style="height:250px;width:100%;" src="{{base_url}}{{merchant.avatar || 'images/no_image.png'}} ">
+							<img style="height: 150px; width:100%; " src="{{base_url}}{{merchant.avatar || 'images/no_image.png'}} ">
 						</div>
 					</div>
 			    </ion-col>
@@ -109,7 +109,7 @@
 			    </ion-col>
 		    </ion-row>
 			<ion-row>
-			    <ion-col col-12 *ngFor="let offer of offers;  let i=index" (click)="showOfferDetails('Offer', offer)">
+			    <ion-col col-6 *ngFor="let offer of offers;  let i=index" (click)="showOfferDetails('Offer', offer)">
 			    	<div *ngIf="i<4">
 				    	<div class="card-style home-burgundy">
 				    		<div class="text-center">{{offer.name}}</div>
@@ -130,7 +130,7 @@
 			    </ion-col>
 		    </ion-row>
 			<ion-row>
-			    <ion-col col-12 *ngFor="let group of groups" (click)="showGroupDetails(group)">
+			    <ion-col col-6 *ngFor="let group of groups" (click)="showGroupDetails(group)">
 			    	<div class="card-style home-burgundy">
 			    		<div class="text-center">{{group.name}}</div>
 			    		<div class="image">
@@ -148,7 +148,7 @@
 			    </ion-col>
 		    </ion-row>
 			<ion-row>
-			    <ion-col col-12 *ngFor="let event of events" (click)="showEventDetails(event)">
+			    <ion-col col-6 *ngFor="let event of events" (click)="showEventDetails(event)">
 			    	<div class="card-style home-burgundy">
 			    		<div class="text-center">{{event.name}}</div>
 				    	<div class="image">

@@ -41,7 +41,7 @@
   </ion-item>
   
 
-<ion-card *ngFor="let item of data">
+<ion-card *ngFor="let item of data" class="gallery">
   <div class="image" (click)="showItemDetails('Merchant', item)">
     <img  src="{{base_url}}{{item.avatar || 'images/no_image.png'}}" > 
   </div>

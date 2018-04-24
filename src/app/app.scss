@@ -16,7 +16,8 @@
 // automatically applied to the <body> element in the app.
 	
 	body{
-		font-family:georgia;
+		// font-family:georgia;
+		font-family: 'Comfortaa',cursive;
 		-webkit-user-select: text;
 		-moz-user-select: text;
 		-ms-user-select: text;
@@ -25,13 +26,14 @@
 
 	.home-divider{
 		font-size: 11px;
-		font-family : calibri;
+		// font-family : calibri;
+		font-family: 'Comfortaa',cursive;
 	}
 	
 	.default{
 		background-color:  #000000;
 		color: #bfbb88;
-		font-family:georgia;
+		font-family: 'Comfortaa',cursive;
 	}
 	ion-item.menu:active{
 	  background-color: #68040a;
@@ -92,10 +94,11 @@
 		text-align:center;
 		padding:5px;
 		color: #fff;
+		font-size: 10px;
 	}
-	.color-bright{
-		color: #68040a;
-	}
+	// .color-bright{
+	// 	color: #68040a;
+	// }
 	.border-bright{
 		border-color: white;
 	}
@@ -103,17 +106,19 @@
 	// 	color: #b00734;
 	// }
 	.background-primary{
-		background-color: #161616;
+		background-color: #68040a;
 		border: solid 1px #800020;
-	    font-family: 'Great Vibes', cursive !important;
-	    color: #a67f42;
+		// font-family: 'Great Vibes', cursive !important;
+		font-family: 'Comfortaa',cursive;
+	    color: #fff;
     	padding-top: 2px;
     	font-size: 29px !important;
     	padding-bottom: 0;
 	}
 	.background-primary11{
 		background-color: #68040a;
-		font-family: 'Great Vibes', cursive !important;
+		// font-family: 'Great Vibes', cursive !important;
+		font-family: 'Comfortaa',cursive;
 	    font-size: 28px !important;
 	    letter-spacing: 1px;
     	vertical-align: baseline;
@@ -137,7 +142,7 @@
 		color:#fff;
 	}
 	.background-primary-2{
-		background-color: #D61C4E;
+		background-color: #68040a;
 	}
 	.background-secondary{
 		background-color: #b58036;
@@ -221,7 +226,7 @@
 		color: #a67f42;
 	}
 	.toolbar-background {
-    background-color: #161616;
+    background-color: #68040a;
 	}	
 	.page-claim .square-100 {
     width: 120px !important;
